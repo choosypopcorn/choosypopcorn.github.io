@@ -1,5 +1,6 @@
 ---
 title: Blogging Again!
+layout: default
 tags: 
     - php 
     - sculpin
@@ -7,4 +8,4 @@ tags:
 
 ## Let's try something different
 
-THis blog is created using PHP, Sculpin, Git, and Github Pages.
+This blog is created using PHP, Sculpin, Git, and Github Pages.
