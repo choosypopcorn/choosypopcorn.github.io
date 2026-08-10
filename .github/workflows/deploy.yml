@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup PHP Environment
         uses: shivammathur/setup-php@v2
@@ -38,14 +38,14 @@ jobs:
 
       - name: Setup GitHub Pages Artifact Settings
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload Static Files Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           # Sculpin compiles production environments into output_prod/
           path: ./output_prod
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
