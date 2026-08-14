@@ -8,7 +8,7 @@
     <article>
         <header>
             <h2>{{ page.title }} <small>post</small></h2>
-            <h4>{{ page.date }}</h4>
+            <h5>{{ page.date|date("F j, Y") }}</h5>
         </header>
         <div>
             {{ page.blocks.content|raw }}
