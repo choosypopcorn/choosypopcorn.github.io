@@ -3,7 +3,7 @@
 # in a template to get the contents of the `title` key.
 title: < Content /> v.10
 subtitle: Where Elmer Blogs
-url: https://choosypopcorn.github.io
+url: https://blog.elmermasters.com
 
 # Insert your disqus shortname
 #disqus:
