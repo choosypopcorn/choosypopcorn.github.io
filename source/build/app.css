@@ -290,8 +290,11 @@ figure {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
   vertical-align: middle;
   border-style: none;
+  display: block;
 }
 
 svg {
